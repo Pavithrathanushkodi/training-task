@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bacancyheader.css" />
+  <linkhref="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="header" class="default-style">
+    <div id="header1" class= "container text-center web-header">
+        <div class="left">
+            <img src="image/bacancy-logo-white (1).svg"/>
+            <!-- <h5>BACANCY</h5> -->
+        </div>
+        <div class="center">
+         <a href="#">About Us</a>
+         <div class="dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu">
+                     
+           <li><a class="dropdown-item" href="#">Software Engineering</a></li>
+           <li><a class="dropdown-item" href="#">Application Engineering</a></li>
+           <li><a class="dropdown-item" href="#">Data Engineering</a></li>
+           <li><a class="dropdown-item" href="#">AI/ML</a></li>
+           <li><a class="dropdown-item" href="#">Automation</a></li>
+           <li><a class="dropdown-item" href="#">Cloud</a></li>
+           <li><a class="dropdown-item" href="#">platform</a></li>
+           </ul>
+           </div>
+        <a href="#">Industries</a>
+        <a href="#">customer</a>
+       <a href="#">contact us</a>
+    </div>
+        <div class="right">
+            <button class="button" type="button">Hire Developers  <i class="bi bi-arrow-right"></i></button>
+    </div>
+            
+    </div>
+</div>
+<button id="butt">
+<input type="option" value="Blue" onclick="myfunction('blue')">
+<input type="option" value="Red" onclick="myfunction('red')">
+<input type="option" value="violet" onclick="myfunction('violet')">
+</button>
+<!-- Header for phone
+ -->
+ <div class="container text-center header">
+ <div class="phone-header">
+    <div class="left1">
+        <img src="image/bacancy-logo-white (1).svg"/>
+    </div>
+<div class="right1">
+    <i class="bi bi-list menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasmenu"></i>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <img src="image/bacancy-logo-white (1).svg"/>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+    
+      <div class="offcanvas-body">
+            <a href="#" data-bs-dismiss="offcanvas">About Us</a>
+                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                     Services<i class="bi bi-caret-right-fill"></i></a>
+                     
+                     <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                     
+           <li><a class="dropdown-item" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">Software Engineering <i class="bi bi-caret-down-fill"></i></a></li>
+           <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+           
+                <li><a class="dropdown-item" href="#">Software consulting</a></li>
+                <li><a class="dropdown-item" href="#">Software services</a></li>
+                </div>
+            </div>
+  
+           <li><a class="dropdown-item" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" >Application Engineering<i class="bi bi-caret-down-fill"></i></i></a></li>
+           <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+             <li><a class="dropdown-item" href="#">Mobile Development</a></li>
+             <li><a class="dropdown-item" href="#">App Development</a></li>
+             <li><a class="dropdown-item" href="#">Ecommerce Development</a></li>
+             </div>
+         </div>
+           <li><a class="dropdown-item" href="#">Data Engineering</a></li>
+           <li><a class="dropdown-item" href="#">AI/ML</a></li>
+           <li><a class="dropdown-item" href="#">Automation</a></li>
+           <li><a class="dropdown-item" href="#">Cloud</a></li>
+           <li><a class="dropdown-item" href="#">platform</a></li>
+           </ul>
+           </div>
+           </div>
+           <a href="#" data-bs-dismiss="offcanvas">Industries</a>
+           <a href="#" data-bs-dismiss="offcanvas">customer</a>
+          <a href="#" data-bs-dismiss="offcanvas">contact us</a>
+       </div>
+       </div>
+       </div>
+
+   
+</div>
+
+
+
+   <script src="bacancyheader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#header{
+    display:inline-flex;
+    justify-content: space-between;
+    gap:10px;
+    background-color: rosybrown;
+    align-items:center;
+    height:5%;
+    width:100%
+
+}
+.one h1{
+    Padding:20px;
+    font-size:80px;
+}
